@@ -5,6 +5,7 @@ import { ThemeProvider } from "./components/themeProvider";
 import RequestService from "./components/RequestService"
 import ContactUS from "./components/ContactUS";
 import Footer from "./components/Footer";
+import Home from "./components/Home";
 function App() {
   return (
     <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme"> 
@@ -13,6 +14,7 @@ function App() {
      <div className="pt-15"> {/* To push content below fixed header */}
     
         <Routes>
+          <Route path="/" element={<Home/>}/>
           <Route path="/requestService" element={<RequestService />} />
           <Route path="/contact" element={<ContactUS />} />
         </Routes>

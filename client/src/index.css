@@ -459,11 +459,11 @@ button:focus-visible {
   --border: oklch(0.9276 0.0058 264.5313);
   --input: oklch(0.9276 0.0058 264.5313);
   --ring: oklch(0.6231 0.1880 259.8145);
-  --chart-1: oklch(0.6231 0.1880 259.8145);
-  --chart-2: oklch(0.5461 0.2152 262.8809);
-  --chart-3: oklch(0.4882 0.2172 264.3763);
-  --chart-4: oklch(0.4244 0.1809 265.6377);
-  --chart-5: oklch(0.3791 0.1378 265.5222);
+  --chart-1: #ff8ba0;
+  --chart-2: #ffc580;
+  --chart-3: #91aaff;
+  --chart-4: #3d9aff;
+  --chart-5: #0057e0;
   --sidebar: oklch(0.9846 0.0017 247.8389);
   --sidebar-foreground: oklch(0.3211 0 0);
   --sidebar-primary: oklch(0.6231 0.1880 259.8145);
@@ -516,11 +516,11 @@ button:focus-visible {
   --border: oklch(0.3715 0 0);
   --input: oklch(0.3715 0 0);
   --ring: oklch(0.6231 0.1880 259.8145);
-  --chart-1: oklch(0.7137 0.1434 254.6240);
-  --chart-2: oklch(0.6231 0.1880 259.8145);
-  --chart-3: oklch(0.5461 0.2152 262.8809);
-  --chart-4: oklch(0.4882 0.2172 264.3763);
-  --chart-5: oklch(0.4244 0.1809 265.6377);
+  --chart-1: #ffb7c5;
+  --chart-2: #ffddb7;
+  --chart-3: #b1c5ff;
+  --chart-4: #4fabff;
+  --chart-5: #076eff;
   --sidebar: oklch(0.2046 0 0);
   --sidebar-foreground: oklch(0.9219 0 0);
   --sidebar-primary: oklch(0.6231 0.1880 259.8145);
@@ -644,5 +644,4 @@ button:focus-visible {
 .nav-underline[data-state="open"]::after {
   width: 100%;
 }
-
 
