@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
-      <section className="border-t bg-card  w-full min-h-[380px] p-6">
-        <div className="lg:max-w-[90%] mx-auto flex flex-col md:flex-row justify-between  w-full space-y-6 border-b pb-6 mb-7">
+      <section className="border-t bg-card  w-full min-h-[325px] p-6">
+        <div className="lg:max-w-[90%] mx-auto flex flex-col md:flex-row justify-between  w-full space-y-6 border-b pb-6 mb-4">
             <div>
                   <Link to="/">
             <div
-              className="float-left w-32 mr-4 h-30 bg-primary ring-2 
+              className="float-left w-32 mr-4 h-30 bg-foreground ring-2 
                          [mask-image:url('/logo.png')] [mask-size:contain] [mask-repeat:no-repeat] [mask-position:center]
                          [-webkit-mask-image:url('/logo.png')] "
               aria-label="logo-debug"
@@ -60,7 +60,7 @@ function Footer() {
             </ul>
         </div>
         </div>
-        <div className=" flex justify-center text-xs sm:text-base font-bold text-muted-foreground ">Copyright © 2025 Ambica Electronics. All Rights Reserved.</div>
+        <div className=" flex h-4 justify-center text-xs sm:text-base font-bold text-muted-foreground">Copyright © 2025 Ambica Electronics. All Rights Reserved.</div>
       </section>
     </>
   );

@@ -26,7 +26,7 @@ function Header() {
       <div className="flex pb-[0.9px]  justify-center items-center">
         <Link to="/">
           <div
-            className=" w-24 h-16 bg-primary ring-2 
+            className=" w-24 h-16 bg-foreground ring-2 
                [mask-image:url('/logo.png')] [mask-size:contain] [mask-repeat:no-repeat] [mask-position:center]
                [-webkit-mask-image:url('/logo.png')] "
             aria-label="logo-debug"

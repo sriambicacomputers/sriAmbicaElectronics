@@ -24,7 +24,7 @@ function RequestService() {
     <>
       <section className=" w-full px-1 ">
         <div className="py-15 md:py-20">
-          <h1 className="text-[36px] font-bold flex justify-center text-foreground">
+          <h1 className="text-[36px] font-bold flex justify-center text-foreground text-center" >
             Request a Service{" "}
           </h1>
           <p className="mt-5  text-center  md:text-lg max-w-3xl mx-auto text-muted-foreground">
