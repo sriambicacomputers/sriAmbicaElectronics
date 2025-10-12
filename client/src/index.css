@@ -665,3 +665,8 @@ button:focus-visible {
 .nav-underline[data-state="open"]::after {
   width: 100%;
 }
+
+::view-transition-old(root), ::view-transition-new(root) {
+    animation: none;
+    mix-blend-mode: normal;
+}

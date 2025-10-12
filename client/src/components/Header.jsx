@@ -20,6 +20,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "./ui/button";
 import { ModeToggle } from "./mode-toggle";
+import { AnimatedThemeToggler } from "./ui/animated-theme-toggler";
 function Header() {
   return (
     <div className="bg-background flex border-b border-border shadow justify-between items-center fixed  top-0 z-40 w-full px-6 lg:px-15 ">
@@ -34,7 +35,8 @@ function Header() {
         </Link>
       </div>
       <div className="flex gap-2  md:hidden">
-        <ModeToggle />
+        {/* <ModeToggle /> */}
+        <AnimatedThemeToggler/>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline" className="w-10 p-0">
@@ -169,7 +171,7 @@ function Header() {
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
-        <ModeToggle />
+        <AnimatedThemeToggler/>
       </div>
     </div>
   );
