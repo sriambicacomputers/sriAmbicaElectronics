@@ -54,7 +54,7 @@ export const MacbookScroll = ({
 
   return (
     <>
-    <div className="flex flex-col justify-center items-center space-y-6 relative top-10 md:top-15">
+    <div className="flex flex-col justify-center items-center space-y-6 relative z-10 top-10 md:top-15">
     <h1 className="font-bold text-3xl md:text-4xl  text-center">Laptops & Desktops</h1>
     <p className="text-muted-foreground text-center text-sm md:text-base px-4 max-w-7xl">We provide complete repair and upgrade laptops, desktops, and monitors with precision. From batteries, keyboards, RAM, and displays to desktop parts like motherboards and power supplies — we handle it all. We also provide OS installations, dual-boot setups, and advanced monitor repairs, including polarizer replacements and COF bonding.</p>
     <Link to="/requestService"><RainbowButton className="p-5 w-fit text-background rounded-3xl font-bold">{`Checkout >`}</RainbowButton></Link>

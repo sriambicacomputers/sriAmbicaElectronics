@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import {Label} from "./ui/label"
@@ -11,6 +11,7 @@ import {
   CardFooter
 } from "@/components/ui/card";
 import { Link } from "react-router-dom";
+
 function ContactUS() {
   return (
     <>
