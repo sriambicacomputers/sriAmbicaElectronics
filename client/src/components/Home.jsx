@@ -8,7 +8,7 @@ function Home(){
     return(
         <>
         <GoogleGeminiEffectDemo/>
-<MacbookScrollDemo/>
+    <MacbookScrollDemo id="macbook-section" /> 
        <HowWeServe/>
 <div className="w-full border-t py-15"><FAQ/></div>
         </>

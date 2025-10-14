@@ -29,10 +29,20 @@ export const GoogleGeminiEffect = ({
 
           <div
         className="w-full h-[890px] -top-55 md:-top-39  flex items-center justify-center  absolute ">
-        <button
-          className=" font-bold bg-foreground text-background rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-32 mt-8 z-30 md:text-base text-sm  w-fit mx-auto ">
-          <Link to="/requestService">Our Services</Link>
-        </button>
+<button
+  onClick={() => {
+    const vh = window.innerHeight;
+    const vw = window.innerWidth;
+    window.scrollTo({
+      top: vh * (vh>vw?3:2.5),
+      behavior: "smooth",
+    });
+}}
+  className="font-bold bg-foreground text-background rounded-full md:px-4 md:py-2 px-2 py-1 md:mt-32 mt-8 z-30 md:text-base text-sm w-fit mx-auto"
+>
+  Our Services
+</button>
+
       </div>
         <svg
         width="1440"
@@ -145,6 +155,10 @@ export const GoogleGeminiEffect = ({
           </filter>
         </defs>
       </svg>
+      <div className="absolute top-[60dvh] left-1/2 transform -translate-x-1/2 text-muted-foreground animate-bounce">
+  ↓ Scroll Down
+</div>
+
     </div>
   );
 };
