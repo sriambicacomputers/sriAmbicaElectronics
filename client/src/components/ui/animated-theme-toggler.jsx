@@ -36,7 +36,7 @@ export const AnimatedThemeToggler = ({
         const newTheme = !isDark
         setIsDark(newTheme)
         document.documentElement.classList.toggle("dark")
-        localStorage.setItem("theme", newTheme ? "dark" : "light")
+        localStorage.setItem("vite-ui-theme", newTheme ? "dark" : "light")
       })
     }).ready
 
