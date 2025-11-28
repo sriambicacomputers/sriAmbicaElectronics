@@ -670,3 +670,8 @@ button:focus-visible {
     animation: none;
     mix-blend-mode: normal;
 }
+
+
+/* *{
+  cursor: none;
+} */

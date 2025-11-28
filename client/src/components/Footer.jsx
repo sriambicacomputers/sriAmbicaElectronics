@@ -7,12 +7,13 @@ function Footer() {
         <div className="lg:max-w-[90%] mx-auto flex flex-col md:flex-row justify-between  w-full space-y-6 border-b pb-6 mb-4">
             <div>
                   <Link to="/">
-            <div
+            {/* <div
               className="float-left w-32 mr-4 h-30 bg-foreground ring-2 
                          [mask-image:url('/logo.png')] [mask-size:contain] [mask-repeat:no-repeat] [mask-position:center]
                          [-webkit-mask-image:url('/logo.png')] "
               aria-label="logo-debug"
-            ></div>
+            ></div> */}
+            <img src="/Gemini_Generated_Image_siza27siza27siza-removebg-preview.png" alt="" className="w-30 mr-4 h-30 float-left"/>
           </Link>
           <p className="md:max-w-sm mt-6 text-muted-foreground sm:text-base text-sm">At Sri Ambica Electronics, we specialize in providing expert gadget
           repair service with over 15 years of experience. Get Audio, Security

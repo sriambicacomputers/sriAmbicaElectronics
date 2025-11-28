@@ -26,12 +26,13 @@ function Header() {
     <div className="bg-background flex border-b border-border shadow justify-between items-center fixed  top-0 z-40 w-full px-6 lg:px-15 ">
       <div className="flex pb-[0.9px]  justify-center items-center">
         <Link to="/">
-          <div
+          {/* <div
             className=" w-24 h-16 bg-foreground ring-2 
                [mask-image:url('/logo.png')] [mask-size:contain] [mask-repeat:no-repeat] [mask-position:center]
                [-webkit-mask-image:url('/logo.png')] "
             aria-label="logo-debug"
-          ></div>
+          ></div> */}
+          <img src="/Gemini_Generated_Image_siza27siza27siza-removebg-preview.png" alt="" className="h-16"/>
         </Link>
       </div>
       <div className="flex gap-2  md:hidden">
